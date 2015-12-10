@@ -175,6 +175,20 @@ SELECT title FROM courses WHERE topic IN ("JavaScript", "Databases", "CSS");
 SELECT * FROM campaigns WHERE medium IN ("email", "blog", "ppc");
 ```
 
+
+To find all rows that are not in the set of values you can use `NOT IN`.
+
+```
+SELECT <columns> FROM <table> WHERE <column>  NOT IN (<value 1>, <value 2>, ...);
+```
+Examples:
+
+```
+SELECT answer FROM answers WHERE id IN (7, 42);
+SELECT * FROM products WHERE category NOT IN ("Electronics");
+SELECT title FROM courses WHERE topic NOT IN ("SQL", "NoSQL");
+```
+
 ### Searching within a Range of Values
 
 ```
@@ -204,4 +218,31 @@ SELECT title FROM books WHERE title LIKE "Harry Potter%Fire";
 SELECT title FROM movies WHERE title LIKE "Alien%";
 SELECT * FROM contacts WHERE first_name "%drew";
 SELECT * FROM books WHERE title LIKE "%Brief History%";
+```
+
+### Missing Values
+
+```
+SELECT * FROM <table> WHERE <column> IS NULL;
+```
+
+Examples:
+
+```
+SELECT * FROM people WHERE last_name IS NULL;
+SELECT * FROM vhs_rentals WHERE returned_on IS NULL;
+SELECT * FROM car_rentals WHERE returned_on IS NULL AND location = "PDX";
+```
+
+To filter out missing values use can use `IS NOT NULL`.
+
+```
+SELECT * FROM <table> WHERE <column> IS NOT NULL;
+```
+
+Examples
+
+```
+SELECT * FROM people WHERE email IS NOT NULL;
+SELECT * FROM addresses WHERE zip_code IS NOT NULL;
 ```
