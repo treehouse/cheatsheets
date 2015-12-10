@@ -10,6 +10,7 @@ SELECT * FROM <table name>;
 
 The asterisk or star symbol (`*`) means all columns.
 
+The semi-colon (`;`) terminates the statement like a period in sentence or question mark in a question.
 
 Examples:
 
