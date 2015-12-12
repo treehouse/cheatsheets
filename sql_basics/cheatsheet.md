@@ -222,7 +222,7 @@ SELECT * FROM books WHERE title LIKE "%Brief History%";
 
 #### PostgreSQL Specific Keywords
 
-`LIKE` in PostgreSQL is case-sensitive. To case-insensitive searches do `ILIKE`.
+`LIKE` in PostgreSQL is case-sensitive. To do case-insensitive searches use `ILIKE`.
 
 ```
 SELECT * FROM contacts WHERE first_name ILIKE "%drew";
