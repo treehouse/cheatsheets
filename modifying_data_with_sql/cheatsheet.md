@@ -34,7 +34,10 @@ Examples:
 INSERT INTO users (username, first_name, last_name) VALUES ("chalkers", "Andrew", "Chalkley");
 INSERT INTO users (first_name, last_name, username) VALUES  ("Kenneth", "Love", "ScRiPtKiDdIe");
 
+INSERT INTO movies (title, genre, year_released) VALUES ("Starman", "Science Fiction", 1984);
+INSERT INTO movies (title, year_released, genre) VALUES ("Moulin Rouge!", 2001,  "Musical");
 ```
+
 
 ## Adding Multiple Rows to a Table
 
