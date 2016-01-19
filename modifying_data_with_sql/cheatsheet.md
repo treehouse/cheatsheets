@@ -57,7 +57,7 @@ Examples:
 INSERT INTO users (username, first_name, last_name) 
     VALUES 
                   ("chalkers", "Andrew", "Chalkley"),
-                  ("Kenneth", "Love", "ScRiPtKiDdIe");
+                  ("ScRiPtKiDdIe", "Kenneth", "Love");
 
 INSERT INTO movies (title, genre, year_released) 
      VALUES 
