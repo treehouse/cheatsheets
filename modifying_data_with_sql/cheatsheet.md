@@ -112,7 +112,7 @@ UPDATE blog_posts SET view_count = 1923 WHERE title = "SQL is Awesome";
 Update multiple columns for specific rows:
 
 ```
-UDPATE <table> SET <column 1> = <value 1>, <column 2> = <value 2>;
+UDPATE <table> SET <column 1> = <value 1>, <column 2> = <value 2> WHERE <condition>;
 ```
 
 Examples:
