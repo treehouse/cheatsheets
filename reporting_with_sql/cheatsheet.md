@@ -214,7 +214,7 @@ SELECT SUM(<numeric column) AS <alias> FROM <table>
 
 ## Calculating Averages
 
-To get the average value of a numeric column use the `AVG()` funciton.
+To get the average value of a numeric column use the `AVG()` function.
 
 ```
 SELECT AVG(<numeric column>) FROM <table>;
@@ -223,14 +223,14 @@ SELECT AVG(<numeric column>) FROM <table> GROUP BY <other column>;
 
 ## Finding the Maximum and Minimum Values
 
-To get the maximum value of a numeric column use the `MAX()` funciton.
+To get the maximum value of a numeric column use the `MAX()` function.
 
 ```
 SELECT MAX(<numeric column>) FROM <table>;
 SELECT MAX(<numeric column>) FROM <table> GROUP BY <other column>;
 ```
 
-To get the minimum value of a numeric column use the `MAX()` funciton.
+To get the minimum value of a numeric column use the `MIN()` function.
 
 ```
 SELECT MIN(<numeric column>) FROM <table>;
