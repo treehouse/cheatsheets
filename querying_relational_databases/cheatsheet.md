@@ -1,4 +1,4 @@
-# Reporting with SQL Cheatsheet
+# Querying Relational Databases Cheatsheet
 
 ## SQL JOINs
 
