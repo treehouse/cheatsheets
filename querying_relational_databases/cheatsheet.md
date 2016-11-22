@@ -138,7 +138,7 @@ SELECT girl_name AS name FROM girl_baby_names
 
 ### INTERSECT
 
-Returns only values that in both data sets.
+Returns only values that are in both data sets.
 
 Get list of classes offered in both schools.
 
