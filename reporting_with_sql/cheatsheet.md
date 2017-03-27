@@ -166,11 +166,11 @@ SELECT LOWER(<value or column>) FROM <table>;
 
 ## Create Excerpts with Substring
 
-To create smaller strings from larger piece of text you can use the `SUBSTR()` funciton or the substring function.'
+To create smaller strings from larger piece of text you can use the `SUBSTR()` funciton or the substring function.
 
 
 ```
-SELECT SUBSTR(<value or column>, <start>, <finish>) FROM <table>;
+SELECT SUBSTR(<value or column>, <start>, <length>) FROM <table>;
 ```
 
 ## Replacing Portions of Text
