@@ -177,7 +177,7 @@ To save all results of the statements after the start of the transaction to disk
 COMMIT;
 ```
 
-To reset the state of the database to before the begining of the transaction:
+To reset the state of the database to before the beginning  of the transaction:
 
 ```
 ROLLBACK;
