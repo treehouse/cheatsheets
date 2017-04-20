@@ -172,6 +172,25 @@ To create smaller strings from larger piece of text you can use the `SUBSTR()` f
 ```
 SELECT SUBSTR(<value or column>, <start>, <length>) FROM <table>;
 ```
+* **\<start\>** : Specifies where to start in the string
+
+	- if <start> is 0 (zero), then it is treated as 1.
+
+	- if <start> is positive, then the function counts from the beginning of string to find the first character.
+
+	- if <start> is negative, then the function counts backward from the end of string.
+
+* **\<finish\>** : length of the desired substring
+
+```
+SELECT SUBSTR('abcdefg', 3,4);
+```
+OUTPUT: cdef
+
+```
+SELECT SUBSTR('abcdefg', -5,4);
+```
+OUTPUT: cdef
 
 ## Replacing Portions of Text
 
