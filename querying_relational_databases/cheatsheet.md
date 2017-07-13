@@ -74,7 +74,7 @@ SELECT <columns> FROM <left table> AS <left alias>
 
 If you wanted to get the product count for every category, 
 even categories without products, an `OUTER JOIN` is the best solution. 
-The following two examples will yield the same results, however one is an 
+The following two examples will yield the same results, however one is a `LEFT OUTER JOIN` and one is a `RIGHT OUTER JOIN`.
 
 ```
 SELECT categories.name, COUNT(products.id) AS "Product Count" FROM categories
