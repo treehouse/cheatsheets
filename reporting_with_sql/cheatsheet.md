@@ -123,6 +123,8 @@ Use the concatenation operator `||`.
 
 ```
 SELECT <value or column> || <value or column> || <value or column>  FROM <table>;  
+
+If you are using an alias make sure the AS goes at the end of the concatenation string or else it will pull nothing.
 ```
 
 ### MS SQL
