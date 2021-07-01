@@ -2,7 +2,7 @@
 
 ## SQL JOINs
 
-JOINs merge related data from multiple tables together in to result set.
+JOINs merge related data from multiple tables together into a result set.
 
 The two most common types of joins are:
 
@@ -106,7 +106,7 @@ SELECT <column>, <column> FROM <table 1> <set operation> SELECT <column>, <colum
 
 ### UNION Examples
 
-Unions return all distinct values from both data sets with no duplicates.
+UNIONs return all distinct values from both data sets with no duplicates.
 
 Get a list of unique restaurants from both north and south malls.
 
@@ -125,7 +125,7 @@ SELECT evening_class FROM school_1 UNION SELECT evening_class FROM school_2
 
 ### UNION ALL
 
-Union all returns all values from both data sets – with duplicates.
+UNION ALL returns all values from both data sets – with duplicates.
 
 Get a list of all names for boys and girls and order them by name.
 
