@@ -61,7 +61,7 @@ There are 3 types of OUTER JOINs:
 
 ```
 SELECT <columns> FROM <left table> 
-    LEFT OUTER JOIN <right right> ON <left table>.<column> = <right table>.<column>;
+    LEFT OUTER JOIN <right table> ON <left table>.<column> = <right table>.<column>;
 
 
 SELECT <columns> FROM <left table> AS <left alias> 
